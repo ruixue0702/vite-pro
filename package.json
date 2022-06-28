@@ -27,6 +27,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^9.1.1",
+    "happy-dom": "^5.3.2",
     "husky": ">=6",
     "lint-staged": ">=10",
     "postcss": "^8.4.14",
@@ -38,6 +39,7 @@
     "vite": "^2.9.9",
     "vitepress": "^1.0.0-alpha.4",
     "vitepress-theme-demoblock": "^1.4.2",
+    "vitest": "^0.16.0",
     "vue-tsc": "^0.34.7"
   },
   "lint-staged": {

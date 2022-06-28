@@ -1,0 +1,12 @@
+@use './button-config.scss'; // 导入 button-config 的配置
+@import './button-base.scss'; // 导入混入
+
+.s-btn {
+  @include button-base;  // 导入 button-base 混入的内容
+  // 导入 type 相关的样式 
+  @include button-variant(button-config.$type);
+  // 导入 size 相关的样式 
+  @include button-variant(button-config.$size);
+  // 导入 hover 等伪类
+  @include button-variant(button-config.$pseudo, true);
+}

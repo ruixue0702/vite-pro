@@ -1,3 +1,7 @@
+
+# 从0到1创建项目+代码规范eslint+prettier+基于vitepress的自动化文档+样式体系
+
+## 创建
 yarn create vite
 vite-project
 vue
@@ -96,3 +100,5 @@ prefixer
 
 <!-- 初始化tailwindcss 配置: 创建 tailwind.config.js 和 postcss.config.js -->
 npx tailwindcss init -p
+
+main.ts 中 import './index.scss'
