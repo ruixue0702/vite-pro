@@ -37,7 +37,7 @@ export default defineComponent({
     const inc = () => {
       count.value++
       // click 事件派发  父组件 @click="onclick"
-      // emit('click')
+      emit('click')
     }
     // v-for => list.value.map
     const list = ref<string[]>(['a', 'b', 'c'])
@@ -53,14 +53,14 @@ export default defineComponent({
       // withModifiers(inc, ['self']) : 只有点击当前元素的时候才会触发 inc 方法，冒泡和捕获都不会触发
       return (
         <div onClick={withModifiers(inc, ['self'])}>
-          test from defineComponent setup : {count.value}
+          <p>test from defineComponent setup : {count.value}</p>
           {/* 可以通过 v-model 进行双向绑定 */}
           {/* v-focus 自定义指令使用 v-focus={[val, arg, ['modifier']]} */}
-          <input type="text" v-focus v-model={count.value} />
+          {/* <input type="text" v-focus v-model={count.value} /> */}
           {/* 没有 v-if、v-for；可用三元表达式代替 */}
           <div>{span}</div>
           <ul>
-            {list.value.map((str) => (
+            {list.value.map(str => (
               <li key={str}>{str}</li>
             ))}
           </ul>

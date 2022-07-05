@@ -11,6 +11,18 @@ $type: (
     background-color: $s-block,
     border-color: $s-line,
   ),
+  success: (
+    color: $s-light-text,
+    background-color: $s-success,
+  ),
+  warning: (
+    color: $s-light-text,
+    background-color: $s-warning,
+  ),
+  error: (
+    color: $s-light-text,
+    background-color: $s-error,
+  ),
   text: (
     paddig: 0,
     color: $s-brand-active,
@@ -52,6 +64,54 @@ $pseudo: (
       color: $s-disabled-text,
       background-color: $s-disabled-bg,
       border: 1px solid $s-disabled-line,
+    )
+  ),
+  success: (
+    hover: (
+      background-color: $s-success-hover,
+    ),
+    focus: (
+      background-color: $s-success-hover,
+    ),
+    active: (
+      background-color: $s-success-active,
+    ),
+    disabled: (
+      color: $s-light-text,
+      background-color: $s-success-disabled,
+      border: none,
+    )
+  ),
+  warning: (
+    hover: (
+      background-color: $s-warning-hover,
+    ),
+    focus: (
+      background-color: $s-warning-hover,
+    ),
+    active: (
+      background-color: $s-warning-active,
+    ),
+    disabled: (
+      color: $s-light-text,
+      background-color: $s-warning-disabled,
+      border: none,
+    )
+  ),
+  error: (
+    hover: (
+      background-color: $s-error-hover,
+    ),
+    focus: (
+      background-color: $s-error-hover,
+    ),
+    active: (
+      background-color: $s-error-active,
+    ),
+    disabled: (
+      color: $s-light-text,
+      background-color: $s-error-disabled,
+      border: none,
     )
   ),
   text: (

@@ -17,3 +17,11 @@
 - npm  i -D vitest  happy-dom @testing-library/vue
 - happy-dom dom模拟库
 - @testing-library/vue 测试库
+
+#### 测试原则
+- 单测应该写的很小，仅覆盖单独函数、类、复用逻辑等
+- 单测关注逻辑正确性，且仅关注程序功能等一个小块
+- 对于可视部分，组件验证基于输入的 props、slots 等渲染输出的结果
+- 对于行为逻辑，组件测试验证响应用户输入时间正确渲染更新和派发事件
+- vitest 文档
+- @test-library/vue 库api

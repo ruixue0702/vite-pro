@@ -1,0 +1,1 @@
+vscode 的 扩展中 prettier：user editor config

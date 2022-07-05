@@ -11,9 +11,21 @@ $s-animation-ease-in-out-smooth: var(
 );
 $s-light-text: var(--s-light-text, #ffffff); // 有色深色背景下字体颜色（固定）
 $s-primary: var(--s-primary, #5e7ce0); // 主要按钮，同品牌色
-$s-primary-disabled: var(--s-primary-disabled, #879ada); // 主要按钮悬停
+$s-primary-disabled: var(--s-primary-disabled, #879ada); // 主要按钮禁用
 $s-primary-hover: var(--s-primary-hover, #7693f5); // 主要按钮悬停
 $s-primary-active: var(--s-primary-active, #344899); // 主要按钮激活
+$s-success: var(--s-success, #0eba1e); // 成功按钮
+$s-success-disabled: var(--s-success-disabled, #879ada); // 成功按钮禁用
+$s-success-hover: var(--s-success-hover, #59cf1a); // 成功按钮悬停
+$s-success-active: var(--s-success-active, #0a8a16); // 成功按钮激活
+$s-warning: var(--s-warning, #ec790c); // 警示按钮
+$s-warning-disabled: var(--s-warning-disabled, #879ada); // 警示按钮禁用
+$s-warning-hover: var(--s-warning-hover, #e7a20c); // 警示按钮悬停
+$s-warning-active: var(--s-warning-active, #d16b0a); // 警示按钮激活
+$s-error: var(--s-error, #e20808); // 错误按钮
+$s-error-disabled: var(--s-error-disabled, #879ada); // 错误按钮禁用
+$s-error-hover: var(--s-error-hover, #f14242); // 错误按钮悬停
+$s-error-active: var(--s-error-active, #c70707); // 错误按钮激活
 $s-text: var(--s-text, #252b3a); // 正文文本
 $s-disabled-text: var(--s-disabled-text, #97a2bd); // 正文文本
 $s-disabled-bg: var(--s-disabled-bg, #c2cce5); // 正文文本

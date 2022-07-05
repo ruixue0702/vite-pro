@@ -10,7 +10,8 @@ module.exports = {
   // bracketSpacing: true,
   // bracketSameLine: false,
   // jsxBracketSameLine: false,
-  arrowParents: "avoid", // default: always
+  arrowParens: "avoid", // default: always
+  // arrowParens: ["error", "as-needed"], // 如果只有一个参数不需要括号
   // insertPragma: false,
   // requirePragma: false,
   proseWrap: "never",
