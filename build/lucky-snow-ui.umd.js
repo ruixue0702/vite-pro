@@ -4,7 +4,7 @@
     : typeof define == 'function' && define.amd
     ? define(['exports', 'vue'], t)
     : ((e = typeof globalThis != 'undefined' ? globalThis : e || self),
-      t((e['snow-ui'] = {}), e.Vue))
+      t((e['lucky-snow-ui'] = {}), e.Vue))
 })(this, function (e, t) {
   'use strict'
   const l = {
