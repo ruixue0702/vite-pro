@@ -64,3 +64,32 @@
     npm notice 
     npm notice Publishing to https://registry.npmjs.org/
     + lucky-snow-ui@0.0.0
+- npm view lucky-snow-ui
+  - lucky-snow-ui@0.0.0 | ISC | deps: none | versions: 1
+    组件库
+    https://github.com/ruixue0702/vite-pro#readme
+
+    keywords: vue3, 组件库, tsx, UI
+
+    dist
+    .tarball: https://registry.npmjs.org/lucky-snow-ui/-/lucky-snow-ui-0.0.0.tgz
+    .shasum: 16a70e34c897699ebdcb4a8ba545a8750e342e96
+    .integrity: sha512-j+4mE4hSdXEqWDvfN9/cJFsdFKxWREcBkNMVDDXQrUXyYWpz/6dwuE0jRXKCjILzVw6myfniO/Zby1hccq2eJg==
+    .unpackedSize: 4.8 kB
+
+    maintainers:
+    - ruixue0702 <ruixue0702@163.com>
+
+    dist-tags:
+    latest: 0.0.0  
+
+    published 45 minutes ago by ruixue0702 <ruixue0702@163.com>
+- 自动切换脚本 根目录创建 pulish.sh 文件
+  ```sh
+  config set registry=https://registry.npmjs.org
+  login # 登录，如果有 OTP，邮件会接收到验证码，输入即可
+  # 登录成功后，短时间内会保存状体啊，可以直接 npm publish
+  publish ./build # 可能会提示名称已存在，换个名字，获取使用作用域包（@xxx/xxx）
+  config set registry=https://registry.npm.taobao.org # 还原淘宝镜像
+  ```
+- chmod +x publish.sh;./publish.sh;
