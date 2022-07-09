@@ -21,7 +21,7 @@
   - ts-node-dev  sudo npm install -g typescript ts-node-dev
 - 安装依赖 
   - commander
-  - inquirer
+  - inquirer （降低版本到 8.2.2）
   - fs-extra
   - kolorist
 - ```ts
@@ -61,3 +61,8 @@
   }
   - yarn dev create -t component   => { type: 'component' }
   - yarn build  => $ tsc
+
+#### 新建组件 fs-extra
+- yarn add -D @types/fs-extra
+- 创建目录
+- 放入文件和内容
